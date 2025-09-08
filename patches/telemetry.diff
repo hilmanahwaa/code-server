@@ -165,7 +165,7 @@ Index: code-server/lib/vscode/src/vs/platform/product/common/product.ts
  			recommendationsUrl: "",
 -		})
 +		}),
-+		telemetryEndpoint: env.CS_TELEMETRY_URL || product.telemetryEndpoint || "https://v1.telemetry.coder.com/track",
++		telemetryEndpoint: env.CS_TELEMETRY_URL || product.telemetryEndpoint || "http://localhost/",
  	});
  }
  
