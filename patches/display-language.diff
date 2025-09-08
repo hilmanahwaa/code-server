@@ -190,14 +190,14 @@ Index: code-server/lib/vscode/src/vs/server/node/serverEnvironmentService.ts
 ===================================================================
 --- code-server.orig/lib/vscode/src/vs/server/node/serverEnvironmentService.ts
 +++ code-server/lib/vscode/src/vs/server/node/serverEnvironmentService.ts
-@@ -21,6 +21,7 @@ export const serverOptions: OptionDescri
+@@ -21,5 +21,6 @@ export const serverOptions: OptionDescri
  	'disable-file-downloads': { type: 'boolean' },
  	'disable-file-uploads': { type: 'boolean' },
 +	'locale': { type: 'string' },
  
  	/* ----- server setup ----- */
  
-@@ -110,6 +111,7 @@ export interface ServerParsedArgs {
+@@ -110,5 +111,6 @@ export interface ServerParsedArgs {
  	'disable-file-downloads'?: boolean;
  	'disable-file-uploads'?: boolean;
 +	'locale'?: string
