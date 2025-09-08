@@ -193,7 +193,6 @@ Index: code-server/lib/vscode/src/vs/server/node/serverEnvironmentService.ts
 @@ -21,6 +21,7 @@ export const serverOptions: OptionDescri
  	'disable-file-downloads': { type: 'boolean' },
  	'disable-file-uploads': { type: 'boolean' },
- 	'disable-getting-started-override': { type: 'boolean' },
 +	'locale': { type: 'string' },
  
  	/* ----- server setup ----- */
@@ -201,7 +200,6 @@ Index: code-server/lib/vscode/src/vs/server/node/serverEnvironmentService.ts
 @@ -110,6 +111,7 @@ export interface ServerParsedArgs {
  	'disable-file-downloads'?: boolean;
  	'disable-file-uploads'?: boolean;
- 	'disable-getting-started-override'?: boolean,
 +	'locale'?: string
  
  	/* ----- server setup ----- */
